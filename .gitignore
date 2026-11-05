@@ -54,3 +54,10 @@ compile_commands.json
 *creator.user*
 
 *_qmlcache.qrc
+
+# Project build: keep the Makefile under version control even though the Qt
+# section above ignores "Makefile*".
+!Makefile
+
+# Build artifacts produced by the Makefile.
+/analysis_tests
